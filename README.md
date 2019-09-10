@@ -1,6 +1,6 @@
-# SufiA
+# Publicidad NeoBux
 
-Proyecto de automatización de Sufi APM, donde se realiza la automatización de los diferentes escenarios para solicitar un crédito a través de la misma.
+Proyecto de automatización de NeoBux, donde se realiza la automatización de los diferentes escenarios para solicitar la vista de publicidad.
 
 La automatización se llevo a cabo utilizando el patron ScreenPlay con Serenity BDD y cucumber.
 
@@ -20,12 +20,9 @@ Para ejecutar el proyecto se requiere de:
 Para clonar el proyecto ejecutar el comando:
 
 ```
-git clone https://grupobancolombia.visualstudio.com/Vicepresidencia%20Servicios%20de%20Tecnolog%C3%ADa/_git/AW1097001_Omapm_SufiTest
+git clone https://github.com/Dyplox/VerPortales.git
 ```
 
 ## Autores
 
-* **Anyela Vanessa Gómez Arango** - *Analista crossfuncional* - [anygomez]
-* **Steven Trujillo Moscoso** - *Analista crossfuncional* - [stmosco]
-* **Felipe Gómez Vásquez** - *Analista crossfuncional* - [fgvasqu]
-* **Jualian David Díaz Romero** - *Analista crossfuncional* - [juddiaz]
+* **Abel Fernango Gutierrez Arias** - *Automatizador* - [@AbelGuAr]
