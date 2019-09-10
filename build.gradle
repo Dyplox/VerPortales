@@ -1,0 +1,32 @@
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+group 'PublicidadGroup'
+version '1.0-SNAPSHOT'
+
+//sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+//apply plugin: 'net.serenity-bdd.aggregator'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+dependencies {
+    testImplementation 'net.serenity-bdd:serenity-core:2.0.1'
+    testImplementation 'net.serenity-bdd:serenity-junit:2.0.1'
+    testImplementation('junit:junit:4.12')
+    testImplementation('org.assertj:assertj-core:1.7.0')
+    testImplementation('org.slf4j:slf4j-simple:1.7.7')
+
+    implementation group: 'net.sf.jt400', name: 'jt400', version: '9.4'
+    implementation 'net.serenity-bdd:serenity-core:2.0.1'
+    implementation 'net.serenity-bdd:serenity-junit:2.0.1'
+    implementation 'net.serenity-bdd:serenity-cucumber:1.9.14'
+    implementation 'net.serenity-bdd:serenity-screenplay:1.9.9'
+    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:1.9.9'
+}
