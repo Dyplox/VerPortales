@@ -1,5 +1,6 @@
 # Compiled class file
 *.class
+*/.classpath/
 
 # Log file
 *.log
@@ -11,6 +12,7 @@
 .mtj.tmp/
 
 # Package Files #
+.war
 *.jar
 *.war
 *.nar
@@ -21,3 +23,21 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# --Mi Config--
+
+#INTELLIJ IDEA
+# User-specific stuff:
+*.idea/
+*.iml
+out/
+
+#ECLIPSE
+*.classpath
+
+#Serenity
+*/build/
+.gradle/
+
+#specific files
+*.lock
